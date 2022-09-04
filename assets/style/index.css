@@ -3,6 +3,7 @@
 * {
 
     box-sizing: border-box;
+    font-family:comic sans MS;
 
 }
 
@@ -14,7 +15,7 @@ header {
 
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(95, 95, 95);
     height: 80px;
 
 }
@@ -75,10 +76,10 @@ body {
 
     width: 165px;
     height: 165px;
-    border: 3px solid rgb(255, 0, 0);
+    border: 3px solid rgb(102, 102, 102);
     border-radius: 165px;
     overflow: hidden;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     margin-left: 65px;
     margin-right: 65px;
     margin-top: 35px;
@@ -88,7 +89,7 @@ body {
 
 .categorias2:hover {
 
-    border: 5px solid rgb(255, 30, 0);
+    border: 5px solid rgb(53, 53, 53);
 
 }
 
@@ -170,7 +171,7 @@ width: 400px;
 .produtoComprar {
 
     border: 0px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 10pt;
     width: 80px;
@@ -265,16 +266,34 @@ width: 400px;
 
 /* Rodapé */
 
+.tituloRodape {
+
+    color: rgb(0, 0, 0);
+
+}
+
+.tituloRodape form {
+
+    color: rgb(0, 0, 0);
+
+}
+
+.creditos {
+
+    color: rgb(0, 0, 0);
+
+}
+
 .rodape {
 
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(78, 78, 78);
     padding-bottom: 20px;
 
 }
 
 .rodape a {
 
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
 }
