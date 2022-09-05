@@ -1,84 +1,131 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+    <!DOCTYPE html>
+    <html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>ExtraDesconto</title>
-        <link rel="stylesheet" href="../assets/style/index.css">
-        <link rel="stylesheet" href="../assets/style/categorias.css">
-    </head>
+        <head>
+            <meta charset="UTF-8">
+            <title>ExtraDesconto</title>
+            <link rel="stylesheet" href="../assets/style/index.css">
+            <link rel="stylesheet" href="../assets/style/categorias.css">
+        </head>
 
-    <body>
+        <body>
 
-        <!-- Cabeçalho do site -->
-        <header>
+            <!-- Cabeçalho do site -->
+            <header>
 
-            <img id="listras" src="../assets/images/listras.svg" alt="selecionar categorias">
-            <a href="../homepage.html"><img id="logo" src="../assets/images/ExtraDescontos.svg" alt="logo"> </a>
-            <img id="pesquisa" src="../assets/images/pesquisa.svg" alt="lupa de pesquisa">
-          
-        </header>
-
-        <div class="teste">
-
-
-
-        </div>
-
-        <footer class="rodape">
-
-            <div id="termosEinformacoes">
-    
-                <div> 
-                    
-                    <h2 class="tituloRodape">Informações importantes</h2>
-                    <a href="#"><p>Políticas de Envio e Entrega</p></a>
-                    <a href="#"><p>Políticas de Privacidade</p></a>
-                    <a href="#"><p>Políticas de Troca e Devolução</p></a>
-    
-                </div>
-    
-                <div>
-    
-                    <h2 class="tituloRodape">Termos</h2>
-                    <a href="#"><p>Aviso Legal</p></a>
-                    <a href="#"><p>Fale Conosco</p></a>
-    
-                </div>
+                <img id="listras" src="../assets/images/listras.svg" alt="selecionar categorias">
+                <a href="../homepage.html"><img id="logo" src="../assets/images/ExtraDescontos.svg" alt="logo"> </a>
+                <img id="pesquisa" src="../assets/images/pesquisa.svg" alt="lupa de pesquisa">
             
-            </div>
-    
-    
-            <div id="cadastroEmidias">
-    
-                <div>
-    
-                    <h2 class="tituloRodape">Cadastre-se aqui para receber as Novidades</h2>
-                    <form>
-    
-                        <input type="email">
-    
-                    </form>
-    
+            </header>
+
+            <section id="section1">
+
+                <div id="menu">
+
+                    <h1>Menu Principal</h1>
+                    <div id="lista">
+                        <ul>
+                            <a href="../homepage.html"><li>Início</li></a>
+                            <li>Categorias</li>
+
+                                <ul>
+                                    <a href="casa&cozinha.html"><li>Casa & Cozinha</li></a>
+                                    <a href="eletrodomesticos.html"><li>Eletrodomésticos</li></a>
+                                    <a href="eletronicos.html"><li>Eletrônicos</li></a>
+                                    <a href="fitness.html"><li>Fitness</li></a>
+                                    <a href="gamers.html"><li>Gamers</li></a>
+                                    <a href="pets.html"><li>Pets</li></a>
+                                </ul>
+
+                            <li>Ofertas</li>
+                            <li>Acompanhe Seu pedido</li>
+                            <li>Sobre nós</li>
+                            <li>Suporte</li>
+                        </ul>
+                    </div>
                 </div>
-    
-                <div>
-    
-                    <img src="assets/images/whatsapp.svg" alt="" class="figRodape">
-                    <img src="assets/images/instagram.svg" alt="" class="figRodape">
-                    <img src="assets/images/tiktok.svg" alt="" class="figRodape">
-    
+
+                <div id="produtos">
+
+                    <h1>Casa e Jardim</h1>
+
+                    <div>
+                        <h2>Mostrar:</h2>
+                            <select name="quant">
+                                <option value="1">24 por página</option>
+                                <option value="2">36 por página</option>
+                                <option value="3">48 por página</option>
+                            </select>
+                    </div>
+                    <div>
+                        <h2>Ordenar Por:</h2>
+                            <select name="ordem">
+                                <option value="1">Em destaque</option>
+                                <option value="2">Mais vendidos</option>
+                                <option value="3">Melhores ofertas</option>
+                                <option value="4">Maior Valor</option>
+                                <option value="5">Menor Valor</option>
+                            </select>
+                    </div>
                 </div>
-    
-            </div>
-    
-            <div id="creditos">
-    
-                <p class="creditos">Todo os Direitos Reservados || <a href="https://github.com/WigorSilva/" target="_blank"> Wigor S. Gonçalves </a> </p>
-                <p class="creditos">© ExtraDesconto 2022</p>
-    
-            </div>
-    
-        </footer>
-    </body>
-</html>
+
+            </section>
+
+            <footer class="rodape">
+
+                <div id="termosEinformacoes">
+        
+                    <div> 
+                        
+                        <h2 class="tituloRodape">Informações importantes</h2>
+                        <a href="#"><p>Políticas de Envio e Entrega</p></a>
+                        <a href="#"><p>Políticas de Privacidade</p></a>
+                        <a href="#"><p>Políticas de Troca e Devolução</p></a>
+        
+                    </div>
+        
+                    <div>
+        
+                        <h2 class="tituloRodape">Termos</h2>
+                        <a href="#"><p>Aviso Legal</p></a>
+                        <a href="#"><p>Fale Conosco</p></a>
+        
+                    </div>
+                
+                </div>
+        
+        
+                <div id="cadastroEmidias">
+        
+                    <div>
+        
+                        <h2 class="tituloRodape">Cadastre-se aqui para receber as Novidades</h2>
+                        <form>
+        
+                            <input type="email">
+        
+                        </form>
+        
+                    </div>
+        
+                    <div>
+        
+                        <img src="assets/images/whatsapp.svg" alt="" class="figRodape">
+                        <img src="assets/images/instagram.svg" alt="" class="figRodape">
+                        <img src="assets/images/tiktok.svg" alt="" class="figRodape">
+        
+                    </div>
+        
+                </div>
+        
+                <div id="creditos">
+        
+                    <p class="creditos">Todo os Direitos Reservados || <a href="https://github.com/WigorSilva/" target="_blank"> Wigor S. Gonçalves </a> </p>
+                    <p class="creditos">© ExtraDesconto 2022</p>
+        
+                </div>
+        
+            </footer>
+        </body>
+    </html>
