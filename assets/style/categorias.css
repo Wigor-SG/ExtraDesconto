@@ -16,7 +16,6 @@ section {
     display: flex;
     justify-content: space-evenly;
     margin: 50px;
-
 }
 
 #menu {
@@ -68,19 +67,56 @@ ul {
 
 }
 
-#produtos {
+#cabecalhoProdutos {
 
     background-color: rgb(255, 255, 255);
     width: 1200px;
-    border-radius: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    height: 120px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px;
+    border-color: black;
+    border-bottom-style: double;
 
 }
 
-#produtos h1 {
+#produtos {
 
-    padding: 50px;
-    padding-top: 10px;
+    width: 1200px;
+    background-color: white;
 
+}
+
+.nome {
+
+    height: 100px;
+
+}
+
+#produtos {
+
+    background-color: white;
+
+}
+
+.linha {
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.produto {
+
+    height: 350px;
+    width: 280px;
+    background-color: rgb(253, 253, 253);
+    margin: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px 0px rgba(224, 223, 223, 0.904);
+    margin-bottom: 10px;
 }
